@@ -272,6 +272,11 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+.about-containers-skills {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
 .about-containers-project {
   gap: 2rem;
   margin-bottom: 2rem;
@@ -280,7 +285,8 @@ section {
 #projects {
   grid-template-columns: repeat(3, 1fr);
 }
-.about-containers-project {
+.about-containers-project,
+.about-containers-skills {
   display: grid;
 }
 
@@ -312,6 +318,16 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+}
+.details-container-skills {
+  padding: 3.2rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  flex-direction: column;
 }
 
 .section-container {
@@ -352,7 +368,14 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
-
+.article-container-skills {
+  display: grid;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
 article {
   display: flex;
   width: 10rem;
@@ -448,6 +471,12 @@ footer p {
   max-width: 800px;
   margin: auto;
 }
+.article-container-skills {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+}
 
 article {
   display: flex;
@@ -466,4 +495,11 @@ article {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+.p {
+  padding-bottom: 0;
+}
+.skillcontainer {
+  display: block;
+  text-align: center;
 }
