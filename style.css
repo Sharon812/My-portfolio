@@ -272,6 +272,17 @@ section {
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+.about-containers-project {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+#projects {
+  grid-template-columns: repeat(3, 1fr);
+}
+.about-containers-project {
+  display: grid;
+}
 
 .about-details-container {
   justify-content: center;
@@ -429,4 +440,30 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+.article-container {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+article {
+  display: flex;
+  align-items: center;
+}
+
+.github-chart {
+  width: 80%; /* Adjust width */
+  max-width: 1100px;
+  height: 300px; /* Set custom height */
+  display: block;
+  margin: auto; /* Centers the image */
+}
+#github-activity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
