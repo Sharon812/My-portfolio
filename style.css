@@ -503,3 +503,10 @@ article {
   display: block;
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  #profile,
+  .section-container {
+    display: flex !important;
+  }
+}
