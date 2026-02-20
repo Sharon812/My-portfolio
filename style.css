@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
 }
 
 html {
@@ -355,9 +356,12 @@ section {
 }
 
 .experience-details-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  justify-content: space-evenly;
   flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  grid: inherit;
 }
 
 .article-container {
@@ -508,5 +512,6 @@ article {
   #profile,
   .section-container {
     display: flex !important;
+    height: 50px;
   }
 }
