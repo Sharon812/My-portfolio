@@ -508,6 +508,10 @@ article {
   text-align: center;
 }
 
+.par {
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1200px) {
   #profile,
   .section-container {
