@@ -519,3 +519,12 @@ article {
     height: 50px;
   }
 }
+
+/* extras */
+.btnn {
+  font-weight: 800;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 17rem !important;
+  border-radius: 2rem;
+}
